@@ -6,6 +6,7 @@ import redirectToHome from './redirectToHome';
 import getUserLangKey from './getUserLangKey';
 import getSlugAndLang from './getSlugAndLang';
 import getPagesPaths from './getPagesPaths';
+import getRegexPath from './getRegexPath';
 import isInPagesPaths from './isInPagesPaths';
 
 /**
@@ -68,6 +69,7 @@ export {
   getBrowserLanguage,
   getCurrentLangKey,
   getPagesPaths,
+  getRegexPath,
   getUserLangKey,
   getValidLangKey,
   getI18nBase,

@@ -56,7 +56,7 @@
       "ramda"
     ],
     "ignore": [
-      "spec.js,test.js"
+      "spec.js"
     ]
   },
   "readme": "README.md",

@@ -48,6 +48,12 @@ const onCreateNode = ({ node, boundActionCreators }, pluginOptions) => {
             name: 'langKey',
             value: slugAndLang.langKey
           });
+          console.log('NECVOOOOOOOOO');
+          createNodeField({
+            node,
+            name: 'path',
+            value: slugAndLang.path
+          });
         }
 
         createNodeField({
@@ -56,7 +62,8 @@ const onCreateNode = ({ node, boundActionCreators }, pluginOptions) => {
           value: slugAndLang.slug
         });
 
-        return 'langKey and slug added';
+
+        return 'langKey, path and slug added';
       }, isInPagesPaths(options, filePath))
     )
     .merge();
